@@ -11,6 +11,12 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication application = new SpringApplication(DemoApplication.class);
+        //코딩이 진다. banner.txt가 먼저 뜬다ㅋㅋ
+        application.setBanner((environment, sourceClass, out) -> {
+            out.println("======================");
+            out.println("sskim");
+            out.println("======================");
+        });
         application.setWebApplicationType(WebApplicationType.NONE);
         application.run(args);
     }
