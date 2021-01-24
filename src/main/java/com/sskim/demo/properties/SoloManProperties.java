@@ -4,7 +4,6 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.lang.NonNull;
 import org.springframework.validation.annotation.Validated;
 
 import javax.validation.constraints.NotEmpty;
@@ -20,5 +19,6 @@ public class SoloManProperties {
     @NotEmpty
     private String name;
     private int age;
+    private String fullName;
     private Duration sessionTimeout = Duration.ofSeconds(30);
 }
