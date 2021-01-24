@@ -1,7 +1,6 @@
 package com.sskim.demo;
 
 import com.sskim.demo.domain.SoloMan;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.annotation.Configuration;
