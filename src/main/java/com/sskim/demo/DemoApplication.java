@@ -10,9 +10,7 @@ import org.springframework.context.annotation.Bean;
 public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication application = new SpringApplication(DemoApplication.class);
-        application.setWebApplicationType(WebApplicationType.NONE);
-        application.run(args);
+        SpringApplication.run(DemoApplication.class, args);
     }
 
     @Bean
