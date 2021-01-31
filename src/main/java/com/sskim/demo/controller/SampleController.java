@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SampleController {
 
-    private SampleService sampleService;
-
-    @GetMapping("/hello")
-    public String hello() {
-        return "hello " + sampleService.getName();
-    }
+//    private SampleService sampleService;
+//
+//    @GetMapping("/hello")
+//    public String hello() {
+//        return "hello " + sampleService.getName();
+//    }
 }
